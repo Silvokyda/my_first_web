@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Register Drivers ~ Old-Racers</title>
+	</head>
+	<body>
+	<div class="wrapper">
+		<div class="logo">
+				<a href="index.html"><img src="racing_vintage.jpg"></a>
+		</div>
+			<ul class="nav-area">
+				<li><a href="Register.html">Register</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="Drivers.html">Drivers</a></li>
+				<li><a href="Question.html">FAQ</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="About.html">About</a></li>
+			</ul>
+			<div class="heading-section">
+					<h1>Racing Registration Form</h1>
+			</div>
+		<div class="inform_text">
+			<p><li><strong>Location</strong> 1379 Greyhouse Lane, Green State, VASHO </li></p>
+            <p><li><strong>Race Dates:</strong>October 1, 2022 / October 4, 2022 / October 7, 2022 </li></p>
+            <p><li><strong>Time:</strong> 8:00AM - 5:00PM</li></p>
+        </div>
+        <form class="reg_form" method="post" name="reg_form" autocomplete="on">
+        	<h1><u>Please fill-up the form below to register to the event:</u></h1><br>
+        	<h2><li>Part one: Personal Info</li></h2>
+        	<label class="form-label">First Name: </label>
+        	<input type="text" id="first_name" class="form_textbox" placeholder="As written on your Identification Card">
+        	<label class="form-label">Other names: </label>
+        	<input type="text" id="other_names" class="form_textbox" placeholder="As written on your Identification Card"><br><br>
+        	<label class="form-label">D.O.B: </label>
+        	<input type="date" id="d.o.b" class="form_textbox">
+        	<label class="form-label">Citizenship: </label>
+        	<input list="countries">
+        	<datalist id="countries">
+        		<option value="Kenyan"> 
+        		<option value="American"> 
+        		<option value="South African"> 
+        		<option value="Russian">
+        		<option value="Indian">
+        	</datalist>
+        	<br><br>
+        	<label class="form-label">Driving Licence No: </label>
+        	<input type="text" id="Licence_no" class="form_textbox" placeholder="As written on your Identification Card">
+        	<label class="form-label">Upload Your ID: </label>
+        	<input type="file" id="other_names" class="form_textbox" placeholder="You can drag and drop"><br>
+        	<hr width="100%" size="2" align="center"><br>
+
+        	<h2><li>Part two: Car Details</li></h2>
+        	<label class="form-label">Car Model: </label>
+        	<input type="text" id="model" class="form_textbox">
+        	<label class="form-label">Year: </label>
+        	<input type="number" id="year" class="form_textbox"><br><br>
+        	<label class="form-label">Reg_No : </label>
+        	<input type="text" id="model" class="form_textbox">
+        	<label class="form-label">Color: </label>
+        	<input type="color" id="model" class="form_textbox"><br>
+        	<hr width="100%" size="2" align="center"><br>
+
+        	<h2><li>Part three: Event Details</li></h2>
+        	<label class="form-label">Event type: </label>
+        	<input list="events">
+        	<datalist id="events">
+        		<option value="short race"> 
+        		<option value="2-way race"> 
+        		<option value="pursuit race">   
+        	</datalist>
+        	<label class="form-label">Event Drivers: </label>
+        	<input list="events_D">
+        	<datalist id="events_D">
+        		<option value="Individual"> 
+        		<option value="Team"> 
+        	</datalist><br>
+        	<hr width="100%" size="2" align="center"><br>
+        	<p><input type="radio" id="terms" class="f_radio">
+        	Agree to the Terms and Conditions.</p>
+        	<p><strong><br>
+        	Disclaimer! Once the form is submitted and approved, you will be required to pay a registration fee according to the race event chosen </strong></p>
+        	<p> Confirm by entering your email address</p>
+        	<input type="email" id="mail" class="f_mail"><br><br>
+        	<button type="submit" class="form_submit">Submit</button>
+
+	</form>
+	<footer>
+    <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>Founded in 1963, Old-racers is a group of individuals who are dedicated to providing and bringing that historic time when the wheels were just being developed. Our history can be your story</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>(254)703 527 474</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>silvansowino1@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+       <div class="topic">Benefits</div>
+       <div><a href="#">Cash Awards</a></div>
+       <div><a href="#">Free annual membership plan</a></div>
+       <div><a href="#">Insuarance Coverage</a></div>
+       <div><a href="#">Free holiday camps</a></div>
+       <div><a href="#">Trophies</a></div>
+       <div><a href="#">Certificates</a></div>
+     </div>
+     <div class="right box">
+       <div class="topic">Subscribe us</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="bottom">
+     <p>Copyright © 2022 <a href="index.html">Old-Racers</a> All rights reserved</p>
+   </div>
+ </footer>
+	</body>
+	</html>

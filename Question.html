@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FAQ~Old-Racers</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
+  		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<div class="wrapper">
+		<div class="logo">
+				<a href="index.html"><img src="racing_vintage.jpg"></a>
+		</div>
+			<ul class="nav-area">
+				<li><a href="Register.html">Register</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="Drivers.html">Drivers</a></li>
+				<li><a href="Question.html">FAQ</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="About.html">About</a></li>
+			</ul>
+	<div class="heading-section">
+					<h1>Facts and questions</h1>
+	</div>
+
+	
+		
+	</div>
+	<footer>
+		<section id="faq">
+    <div class="container_f faq">
+
+      <div class="container_f">
+        <div class="row_f">
+          <div class="col-sm-12">
+            <div class="accordions">
+
+             
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item4">
+                  <h3>Who are the old racers  <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item4">
+                  <p>
+                   This is a group of individuals who are dedicated to providing and bringing that historic time when the wheels were just developing. Our history can be your story.
+                  </p>
+                </div>
+              </div>
+
+          
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item2">
+                  <h3>What is required of me to join the race? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item2">
+                  <p>
+                    With your passion to join the community, one is required to ofcourse have the basic knowledge i.e driving. Those that register succesfully will be given rally-numbers whivh will identify you, your team and your car.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item3">
+                  <h3>Payment Options <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item3">
+                  <p>
+                    This is an international event and thus provide variety of payment options. These includes: Paypal, Payoneer, visa etc. 
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item1">
+                  <h3>Why Old Racers? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item1">
+                  <p>
+                    We provide a platform where you can showcase your vintage cars. In addition to that, to the rally lovers you are given a chance to put your engines on full nitrous as you head to the finish line. Winners ofcource are awarded. The awards rage from a free old-racer annual insuarance to a guaranteed 6-month free full service on your machines. Cash awards worth $10,000 will also be given. <a href=
+                    "Register.html"> Join us </a> today and enjoy that nostalgic experience
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+  	 $(document).ready(function () {
+    $(".accordion-title").click(function (e) {
+      var accordionitem = $(this).attr("data-tab");
+      $("#" + accordionitem)
+        .slideToggle()
+        .parent()
+        .siblings()
+        .find(".accordion-content")
+        .slideUp();
+
+      $(this).toggleClass("active-title");
+      $("#" + accordionitem)
+        .parent()
+        .siblings()
+        .find(".accordion-title")
+        .removeClass("active-title");
+
+      $("i.fa-chevron-down", this).toggleClass("chevron-top");
+      $("#" + accordionitem)
+        .parent()
+        .siblings()
+        .find(".accordion-title i.fa-chevron-down")
+        .removeClass("chevron-top");
+    });
+  });
+  </script>
+    <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>Founded in 1963, Old-racers is a group of individuals who are dedicated to providing and bringing that historic time when the wheels were just being developed. Our history can be your story</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>(254)703 527 474</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>silvansowino1@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+       <div class="topic">Benefits</div>
+       <div><a href="#">Cash Awards</a></div>
+       <div><a href="#">Free annual membership plan</a></div>
+       <div><a href="#">Insuarance Coverage</a></div>
+       <div><a href="#">Free holiday camps</a></div>
+       <div><a href="#">Trophies</a></div>
+       <div><a href="#">Certificates</a></div>
+     </div>
+     <div class="right box">
+       <div class="topic">Subscribe us</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="bottom">
+     <p>Copyright © 2022 <a href="index.html">Old-Racers</a> All rights reserved</p>
+   </div>
+ </footer>
+	</body>
+	</html>

@@ -1,0 +1,2 @@
+# my_first_web
+This is a prototype website for a vintage car rally. The rally is to take place across five countries. The website will allow interested  spectators to find out details about the rally, have regular updates about what is happening  and to buy tickets to the event. The website currently doesn’t take payments and bookings  online; they hope to do this in the future. The website should be visual and should be  compatible on different devices.
